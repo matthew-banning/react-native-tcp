@@ -160,7 +160,7 @@ TcpSocket.prototype._read = function (n) {
     // not already reading, start the flow
     this._debug('Socket._read resume');
     this._reading = true;
-    this.resume();
+    // this.resume();
   }
 };
 
